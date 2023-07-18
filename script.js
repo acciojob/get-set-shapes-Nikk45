@@ -2,20 +2,20 @@
 class Rectangle {
 	
 	constructor(width, height){
-		this.width = width;
-		this.height = height;
+		this.wid = width;
+		this.hei = height;
 	}
 
 	get width(){
-		return this.width;
+		return this.wid;
 	}
 
 	get height(){
-		return this.height;
+		return this.hei;
 	}
 
 	getArea(){
-		return this.width*this.height;
+		return this.wid * this.hei;
 	}
 }
 
@@ -25,7 +25,7 @@ class Square extends Rectangle {
 	 }
 	
 	getPerimeter(){
-		return 4*this.width;	
+		return 4 * this.wid;	
 	}
 }
 
