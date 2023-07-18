@@ -25,7 +25,7 @@ class Square extends Rectangle {
 	 }
 	
 	getPerimeter(){
-		return 4*this.sq_s;	
+		return 4*this.width;	
 	}
 }
 
@@ -33,8 +33,8 @@ const sq = new Square(7);
 const rec = new Rectangle(5,10);
 const res = sq.getPerimeter();
 const re = rec.getArea();
-console.log("square "+res);
-console.log("rectangle" +re);
+console.log("square of "+ sq.rect_h+ " " +res);
+console.log("rectangle "+ rec.rect_w+ " " +re);
 
 // Do not change the code below this line
 window.Rectangle = Rectangle;
