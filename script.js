@@ -1,7 +1,6 @@
 //complete this code
 class Rectangle {
-	const rect_w = 5;
-	const rect_h = 10;
+	
 	constructor(rect_w, rect_h){
 		this.rect_w = rect_w;
 		this.rect_h = rect_h;
