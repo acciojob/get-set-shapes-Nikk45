@@ -6,11 +6,11 @@ class Rectangle {
 		this.rect_h = rect_h;
 	}
 
-	get Width(){
+	get width(){
 		return this.rect_w;
 	}
 
-	get Height(){
+	get height(){
 		return this.rect_h;
 	}
 
@@ -33,8 +33,8 @@ const sq = new Square(7);
 const rec = new Rectangle(5,10);
 const res = sq.getPerimeter();
 const re = rec.getArea();
-// alert("square "+res);
-// alert("rectangle" +re);
+console.log("square "+res);
+console.log("rectangle" +re);
 
 // Do not change the code below this line
 window.Rectangle = Rectangle;
