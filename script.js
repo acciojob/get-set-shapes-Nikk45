@@ -22,12 +22,13 @@ class Rectangle {
 
 class Square extends Rectangle {
 	const sq_s = 7; 
-	// constructor(sideLength) {
-	//     super(sideLength, sideLength);
-	//  }
+	constructor(sideLength) {
+	    super(sideLength, sideLength);
+	 }
 	
 	getPerimeter(){
-		return 4*this.sq_s;	}
+		return 4*this.sq_s;	
+	}
 }
 
 const sq = new Square(7);
