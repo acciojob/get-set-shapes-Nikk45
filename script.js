@@ -1,21 +1,21 @@
 //complete this code
 class Rectangle {
 	
-	constructor(width, height){
-		this.wid = width;
-		this.hei = height;
+	constructor(rect_w, rect_h){
+		this.rect_w = rect_w;
+		this.rect_h = rect_h;
 	}
 
-	get Width(){
-		return this.wid;
+	get width(){
+		return this.rect_w;
 	}
 
-	get Height(){
-		return this.hei;
+	get height(){
+		return this.rect_h;
 	}
 
 	getArea(){
-		return this.wid * this.hei;
+		return this.rect_w*this.rect_h;
 	}
 }
 
@@ -25,11 +25,11 @@ class Square extends Rectangle {
 	 }
 	
 	getPerimeter(){
-		return 4 * this.wid;	
+		return 4*this.width;	
 	}
 }
 
-// const sq = new Square(7);
+// const sq = new Square(6);
 // const rec = new Rectangle(5,10);
 // const res = sq.getPerimeter();
 // const re = rec.getArea();
