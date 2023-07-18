@@ -29,12 +29,12 @@ class Square extends Rectangle {
 	}
 }
 
-const sq = new Square(7);
-const rec = new Rectangle(5,10);
-const res = sq.getPerimeter();
-const re = rec.getArea();
-console.log("square of "+ sq.rect_h+ " " +res);
-console.log("rectangle "+ rec.rect_w+ " " +re);
+// const sq = new Square(7);
+// const rec = new Rectangle(5,10);
+// const res = sq.getPerimeter();
+// const re = rec.getArea();
+// console.log("square of "+ sq.rect_h+ " " +res);
+// console.log("rectangle "+ rec.rect_w+ " " +re);
 
 // Do not change the code below this line
 window.Rectangle = Rectangle;
