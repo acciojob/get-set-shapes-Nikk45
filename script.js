@@ -5,11 +5,11 @@ class Rectangle {
 		this.rect_h = rect_h;
 	}
 
-	getWidth(){
+	get Width(){
 		return this.rect_w;
 	}
 
-	getHeight(){
+	get Height(){
 		return this.rect_h;
 	}
 
