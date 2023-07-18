@@ -21,7 +21,6 @@ class Rectangle {
 }
 
 class Square extends Rectangle {
-	const sq_s = 7; 
 	constructor(sideLength) {
 	    super(sideLength, sideLength);
 	 }
