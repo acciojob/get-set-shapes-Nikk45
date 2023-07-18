@@ -25,8 +25,8 @@ class Square extends Rectangle {
 	}
 }
 
-const sq = new Square(4);
-const rec = new Rectangle(4,6);
+const sq = new Square(7);
+const rec = new Rectangle(5,10);
 const res = sq.getPerimeter();
 const re = rec.getArea();
 alert("square "+res);
