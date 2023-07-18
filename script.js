@@ -1,21 +1,21 @@
 //complete this code
 class Rectangle {
 	
-	constructor(rect_w, rect_h){
-		this.rect_w = rect_w;
-		this.rect_h = rect_h;
+	constructor(width, height){
+		this.width = width;
+		this.height = height;
 	}
 
 	get width(){
-		return this.rect_w;
+		return this.width;
 	}
 
 	get height(){
-		return this.rect_h;
+		return this.height;
 	}
 
 	getArea(){
-		return this.rect_w*this.rect_h;
+		return this.width*this.height;
 	}
 }
 
