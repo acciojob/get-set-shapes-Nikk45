@@ -19,11 +19,19 @@ class Rectangle {
 }
 
 class Square extends Rectangle {
+
+	constructor(width){
+		super(width);
+	}
+	
 	getPerimeter(){
 		return 4*this.width;
 	}
 }
 
+const sq = new Square(4);
+const res = sq.getPerimeter();
+alert(res);
 // Do not change the code below this line
 window.Rectangle = Rectangle;
 window.Square = Square;
